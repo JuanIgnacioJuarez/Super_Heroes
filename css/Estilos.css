@@ -16,6 +16,7 @@ article>div{
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 article h2{
     margin-bottom: 0px;
