@@ -1,0 +1,73 @@
+a button, footer, .titulo{
+    background-color: #00669F;
+    color: #F3F3F3;
+}
+article{
+    height: 529px;
+    width: 300px;
+}
+article button{
+    border: 0px;
+    height: 48.52px;
+    margin-bottom: 10px;
+    width: 128.78px;
+}
+article>div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+article h2{
+    margin-bottom: 0px;
+}
+article p{
+    margin: 16px;
+}
+.avatar{
+    border-radius: 60%;
+    width: 40%;
+    z-index: 2;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.descuento{
+    background-color: #1CD1B0;
+    padding: 8px;
+    padding-left: 20px;
+}
+div.descripcion{
+    background-color: #F3F3F3;
+    position: relative;
+    top: -60px;
+}
+.fondo{
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    width: 100%;
+}
+footer{
+    margin-top: 20px;
+    padding: 15px;
+}
+h1{
+    color: black !important;
+    margin-top: 0;
+    padding: 20px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.superior{
+    position: relative;
+    z-index: 1;
+}
+svg{
+    align-self: flex-start;
+    fill: red;
+    left: 15px;
+    position: relative;
+    top: 30px;
+}
