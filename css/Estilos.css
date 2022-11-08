@@ -43,8 +43,8 @@ div.descripcion{
     top: -60px;
 }
 .fondo{
-    border-top-left-radius: 8%;
-    border-top-right-radius: 8%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     width: 100%;
 }
 footer{
@@ -52,7 +52,7 @@ footer{
     padding: 15px;
 }
 h1{
-    color: black !important;
+    color: black;
     margin-top: 0;
     padding: 20px;
 }
@@ -71,4 +71,31 @@ svg{
     left: 15px;
     position: relative;
     top: 30px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px){
+    .descuento{
+        background-color: #D1891C;
+    }
+    h1{
+        color: white;
+    }
+    section{
+        justify-content: space-evenly;
+    }
+    footer>div{
+        text-align: center;
+    }
+}
+
+@media (max-width: 460px){
+    h1{
+        margin-bottom: 0px;
+    }
+    section{
+        flex-direction: column;
+        align-content: space-around;
+    }
 }
