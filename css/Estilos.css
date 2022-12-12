@@ -1,10 +1,15 @@
+a>svg{
+    fill: #00669F;
+    position: relative;
+    top: 200px;
+}
 a button, footer, .titulo{
     background-color: #00669F;
     color: #F3F3F3;
 }
 article{
     height: 529px;
-    width: 300px;
+    width: 200px;
 }
 article button{
     border: 0px;
@@ -29,6 +34,17 @@ article p{
     width: 40%;
     z-index: 2;
 }
+.barra{
+    display: flex;
+    background-color: #001D2D;
+    position: relative;
+    bottom: 21px;
+    justify-content: flex-end;
+}
+.barra>a{
+    color: white;
+    margin: 10px;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -51,15 +67,27 @@ footer{
     margin-top: 20px;
     padding: 15px;
 }
+footer>div{
+    text-align: center;
+}
 h1{
     color: black;
     margin-top: 0;
     padding: 20px;
 }
+h2{
+    text-align: center;
+}
+p{
+    font-size: medium;
+}
 section{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+}
+section>section{
+    display: flex;
 }
 .superior{
     position: relative;
@@ -87,6 +115,13 @@ svg{
     }
     footer>div{
         text-align: center;
+    }
+    .Primero{
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+    article{
+        margin: 10px;
     }
 }
 

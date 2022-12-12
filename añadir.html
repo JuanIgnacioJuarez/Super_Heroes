@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Superhéroe</title>
+    <link rel="stylesheet" href="./css/EstilosAñadir.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="descuento">Descuentos 20%</div>
+        <div class="titulo"><h1>Heroes de marvel</h1></div>
+        <div class="barra">
+            <a class="contacto">Contacto</a>
+            <a class="registrarme">Registrarme</a>
+            <a class="ingresar">Ingresar</a>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor">
+            <div class="superior">
+                <p class="tituloCont">¡Añadí tu Superhéroe!</p>
+                <p>Agregá tu personaje favorito completando las opciones</p>
+            </div>
+            <div class="forms">
+                <div class="nomFechDesc">
+                    <div class="nom">
+                        <p>*Nombre</p>
+                        <input type="text" name="nombre" id="nombre">
+                        <label for="nombre"></label>
+                    </div>
+                    <div class="fech">
+                        <p>Fecha</p>
+                        <label for="fecha"></label>
+                        <input type="date" name="fecha">
+                    </div>
+                    <div class="desc">
+                        <label for="descripcion"></label>
+                        <input type="text" name="descripcion" placeholder="Descripcion">
+                    </div>
+                </div>
+                <div class="espFotPodPer">
+                    <div class="esp">
+                        <p>*Especie</p>
+                        <label for="nombre"></label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="fot">
+                        <p>Agregar foto</p>
+                        <label for="foto"></label>
+                        <input type="file" name="foto" accept="jpg">
+                    </div>
+                    <div class="podPer">
+                        <div class="pod">
+                            <p>Poderes</p>
+                            <div>
+                                <input type="checkbox" name="poderes" value="Volar">
+                                <label for="poderes">Volar</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="poderes" value="SuperInteligencia">
+                                <label for="poderes">Súper inteligencia</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="poderes" value="vistaRayoLaser">
+                                <label for="poderes">Vista de rayo láser</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="poderes" value="billeteraGorda">
+                                <label for="poderes">Billetera gorda</label>
+                            </div>
+                        </div>
+                        <hr></hr>
+                        <div class="per">
+                            <p>Tipo de personaje</p>
+                            <div>
+                                <input type="radio" name="per" value="heroe/heroina">
+                                <label for="per">Héroe/Heroina</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="per" value="villano/villana">
+                                <label for="per">Villano/Villana</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer><div>Todos los derechos reservados a DígitalMind</div></footer>
+</body>
+</html>
